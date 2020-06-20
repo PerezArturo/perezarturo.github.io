@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    color: white;
+    line-height: 1.125;
+}
+
+.header {
+    background-image: linear-gradient(141deg, #001f3f 0%, #00468C 71%, #0066CC 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    background-size: cover;
+    height: 100%;
+    z-index: 0;
+}
+
+.subtitle{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-45%, -45%);
+}
+
+.bg-img{
+    width: 1076px;
+    height: 755px;   
+    background-image: url(/img/undraw_web_developer_p3e5.svg);
+    background-size: cover;
+    z-index: 2;
+    
+}
