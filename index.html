@@ -1,372 +1,228 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Perez Arturo</title>
-    <link rel="stylesheet" href="css/bulma.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <section class="hero custom-section is-large header">
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
-              <a class="navbar-item"> </a>
-              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perez Arturo</title>
+  <link rel="stylesheet" href="css/bulma.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <section class="hero custom-section is-large header">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item"> </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="#about">
+                Acerca
+              </a>
+              <a class="navbar-item" href="#skills">
+                Skills
+              </a>
+              <a class="navbar-item" href="#projects">
+                Proyectos
+              </a>
             </div>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-end">
-                <a class="navbar-item" href="#about">
-                  Acerca
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-12">
+            <h1 class="title"></h1>
+            <p class="subtitle">
+              <span>Un individuo jugando a
+                ser desarrollador.</span>
+            </p>
+            <div class="columns ml-1">
+              <div class="buttons">
+                <a class="button">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <strong>Follow</strong>
                 </a>
-                <a class="navbar-item" href="#skills">
-                  Skills
-                </a>
-                <a class="navbar-item" href="#projects">
-                  Proyectos
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-12">
-              <h1 class="title"></h1>
-              <h2 class="subtitle">
-                Un individuo jugando a ser desarrollador.
-              </h2>
-              <div class="columns ml-1">
-                <div class="buttons">
-                  <a class="button">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <strong>Follow</strong>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-    </section>
-    <section id="about" class="hero">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-6">
-              <div class="columns">
-                <h1 class="sectitle">Acerca de mi</h1>
-              </div>
-              <div class="columns mt-5">
-                <p class="has-text-justified">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  efficitur nisi nec ultrices mattis. Pellentesque sodales nisl
-                  eget blandit eleifend. Suspendisse id nibh nibh. Cras
-                  sollicitudin vitae risus ut eleifend. Curabitur sodales erat
-                  felis. Fusce placerat tempus dui, eu sollicitudin justo porta
-                  quis. Pellentesque feugiat ut justo eget ultrices. Vestibulum
-                  pellentesque quam ac quam pretium egestas. Sed condimentum
-                  ultrices tempor. Donec gravida tellus non ante tempus, eu
-                  sollicitudin nisi volutpat. Nam scelerisque blandit elit in
-                  dignissim. Fusce sit amet dapibus neque. Nunc vitae metus quis
-                  mauris bibendum tristique. Pellentesque ornare pulvinar
-                  ultricies. Donec viverra auctor magna ut malesuada. Morbi
-                  egestas felis vel mi egestas, vitae porta tortor elementum.
-                  Curabitur posuere tristique ante, eu facilisis ligula. Mauris
-                  condimentum finibus mi eu iaculis. Maecenas eu lacus sit amet
-                  nisi aliquet faucibus sit amet in nunc. Morbi nibh est,
-                  scelerisque ut hendrerit sit amet, laoreet at lacus. Sed
-                  ultricies luctus justo consectetur congue. In vel ornare enim.
-                  Proin maximus ornare massa, quis sollicitudin nunc ullamcorper
-                  sed.
-                </p>
-              </div>
+    </div>
+  </section>
+  <section id="about" class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6">
+            <div class="columns">
+              <h1 class="sectitle">Acerca de mi</h1>
             </div>
-            <div class="column is-6 ml-5">
-              <img src="img/undraw_programming_2svr.svg" alt="" />
+            <div class="columns mt-5">
+              <p class="has-text-justified">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                efficitur nisi nec ultrices mattis. Pellentesque sodales nisl
+                eget blandit eleifend. Suspendisse id nibh nibh. Cras
+                sollicitudin vitae risus ut eleifend. Curabitur sodales erat
+                felis. Fusce placerat tempus dui, eu sollicitudin justo porta
+                quis. Pellentesque feugiat ut justo eget ultrices. Vestibulum
+                pellentesque quam ac quam pretium egestas. Sed condimentum
+                ultrices tempor. Donec gravida tellus non ante tempus, eu
+                sollicitudin nisi volutpat. Nam scelerisque blandit elit in
+                dignissim. Fusce sit amet dapibus neque. Nunc vitae metus quis
+                mauris bibendum tristique. Pellentesque ornare pulvinar
+                ultricies. Donec viverra auctor magna ut malesuada. Morbi
+                egestas felis vel mi egestas, vitae porta tortor elementum.
+                Curabitur posuere tristique ante, eu facilisis ligula. Mauris
+                condimentum finibus mi eu iaculis. Maecenas eu lacus sit amet
+                nisi aliquet faucibus sit amet in nunc. Morbi nibh est,
+                scelerisque ut hendrerit sit amet, laoreet at lacus. Sed
+                ultricies luctus justo consectetur congue. In vel ornare enim.
+                Proin maximus ornare massa, quis sollicitudin nunc ullamcorper
+                sed.
+              </p>
             </div>
+          </div>
+          <div class="column is-6 ml-5">
+            <img src="img/undraw_programming_2svr.svg" alt="" />
           </div>
         </div>
       </div>
-    </section>
-    <section id="skills" class="hero">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-12">
-              <div class="columns">
-                <h1 class="sectitle">Skills</h1>
-              </div>
-              <canvas id="myChart"></canvas>
+    </div>
+  </section>
+  <section id="skills" class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-12">
+            <div class="columns">
+              <h1 class="sectitle">Skills</h1>
             </div>
+            <canvas id="myChart"></canvas>
           </div>
         </div>
       </div>
-    </section>
-    <section id="projects" class="hero mb-5">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <h1 class="sectitle">Proyectos</h1>
-          </div>
-          <div class="columns mt-3">
-            <div class="column is-3">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="secsubtitle is-4">John Smith</p>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris.
-
-                    <div class="buttons mt-2">
-                      <a class="button">
-                        <span class="icon">
-                          <i class="fab fa-github"></i>
-                        </span>
-                        <strong>Follow</strong>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="column is-3">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="secsubtitle is-4">John Smith</p>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris.
-
-                    <div class="buttons mt-2">
-                      <a class="button">
-                        <span class="icon">
-                          <i class="fab fa-github"></i>
-                        </span>
-                        <strong>Follow</strong>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-3">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="secsubtitle is-4">John Smith</p>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris.
-
-                    <div class="buttons mt-2">
-                      <a class="button">
-                        <span class="icon">
-                          <i class="fab fa-github"></i>
-                        </span>
-                        <strong>Follow</strong>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-3">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="secsubtitle is-4">John Smith</p>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris.
-
-                    <div class="buttons mt-2">
-                      <a class="button">
-                        <span class="icon">
-                          <i class="fab fa-github"></i>
-                        </span>
-                        <strong>Follow</strong>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    </div>
+  </section>
+  <section id="projects" class="hero mb-5">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <h1 class="sectitle">Proyectos</h1>
         </div>
+        
       </div>
-    </section>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <span class="icon">
-        <i class="fas fa-angle-up"></i>
-      </span>
-    </button>
-  </body>
-  <script
-    defer
-    src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"
-    integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-  <script>
-    function myFunction() {
-      var type = document.getElementsByClassName("typed-cursor")[0];
-      type.style.visibility = "hidden";
-    }
-    var ctx = document.getElementById("myChart");
-    var myChart = new Chart(ctx, {
-      type: "horizontalBar",
-      data: {
-        labels: ["Python/Django", "Java/Android", "Mysql", "C#", "Js"],
-        datasets: [
+    </div>
+  </section>
+  <button id="myBtn" title="Go to top">
+    <span class="icon">
+      <i class="fas fa-angle-up"></i>
+    </span>
+  </button>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"
+  integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+  function myFunction() {
+    var type = document.getElementsByClassName("typed-cursor")[0];
+    type.style.visibility = "hidden";
+  }
+  var ctx = document.getElementById("myChart");
+  var myChart = new Chart(ctx, {
+    type: "horizontalBar",
+    data: {
+      labels: ["Python/Django", "Java/Android", "Mysql", "C#", "Js"],
+      datasets: [
+        {
+          label: "Porcentaje",
+          data: [70, 50, 30, 30, 40],
+          backgroundColor: [
+            "rgb(0, 75, 52,0.2)",
+            "rgb(231, 0, 24,0.2)",
+            "rgb(0, 117, 141,0.2)",
+            "rgb(154, 60, 170,0.2)",
+            "rgb(251, 224, 65,0.2)",
+          ],
+          borderColor: [
+            "rgb(0, 75, 52)",
+            "rgb(231, 0, 24)",
+            "rgb(0, 117, 141)",
+            "rgb(154, 60, 170)",
+            "rgb(251, 224, 65)",
+          ],
+          borderWidth: 1,
+        },
+      ],
+    },
+    options: {
+      scales: {
+        xAxes: [
           {
-            label: "Porcentaje",
-            data: [70, 50, 30, 30, 40],
-            backgroundColor: [
-              "rgb(0, 75, 52,0.2)",
-              "rgb(231, 0, 24,0.2)",
-              "rgb(0, 117, 141,0.2)",
-              "rgb(154, 60, 170,0.2)",
-              "rgb(251, 224, 65,0.2)",
-            ],
-            borderColor: [
-              "rgb(0, 75, 52)",
-              "rgb(231, 0, 24)",
-              "rgb(0, 117, 141)",
-              "rgb(154, 60, 170)",
-              "rgb(251, 224, 65)",
-            ],
-            borderWidth: 1,
+            ticks: {
+              beginAtZero: true,
+              steps: 10,
+              stepValue: 5,
+              max: 100,
+            },
           },
         ],
       },
-      options: {
-        scales: {
-          xAxes: [
-            {
-              ticks: {
-                beginAtZero: true,
-                steps: 10,
-                stepValue: 5,
-                max: 100,
-              },
-            },
-          ],
+      animation: {
+        duration: 2000,
+        onProgress: function (animation) {
+          ctx.value =
+            animation.animationObject.currentStep /
+            animation.animationObject.numSteps;
         },
-        animation: {
-          duration: 2000,
-          onProgress: function (animation) {
-            ctx.value =
-              animation.animationObject.currentStep /
-              animation.animationObject.numSteps;
-          },
-          onComplete: function () {
-            window.setTimeout(function () {
-              ctx.value = 0;
-            }, 2000);
-          },
+        onComplete: function () {
+          window.setTimeout(function () {
+            ctx.value = 0;
+          }, 2000);
         },
       },
-    });
+    },
+  });
 
-    var typed = new Typed(".title", {
-      strings: ["Perez Arturo"],
-      typeSpeed: 50,
-    });
+  var typed = new Typed(".title", {
+    strings: ["Perez Arturo"],
+    typeSpeed: 50,
+  });
 
-    mybutton = document.getElementById("myBtn");
 
-    window.onscroll = function () {
-      scrollFunction();
-    };
-    function scrollFunction() {
-      if (
-        document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20
-      ) {
-        mybutton.style.display = "block";
+  $(document).ready(function () {
+    var btn = $('#myBtn');
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 600) {
+        btn.show();
       } else {
-        mybutton.style.display = "none";
+        btn.hide();
       }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-    document.addEventListener("DOMContentLoaded", function (event) {
-      myFunction();
     });
-  </script>
+
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+    myFunction();
+  });
+</script>
+
 </html>
