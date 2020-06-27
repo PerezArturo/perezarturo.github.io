@@ -29,6 +29,17 @@ html {
     color: white;
 }
 
+.card-4 {
+    border-radius: 15px;
+    background-color: #ffea85;
+    color: white;
+}
+
+.card-5 {
+    border-radius: 15px;
+    background-color: #e8751a;
+    color: white;
+}
 .card-header {
     border-radius: 15px 15px 0 0;
 }
