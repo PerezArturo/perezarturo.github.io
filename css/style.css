@@ -10,7 +10,9 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-weight: bolder;
   font-size: 6rem;
-  color: #001f3f;
+  background: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 1.125;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -20,7 +22,17 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   font-size: 3.5rem;
-  color: #001f3f;
+  color: #000;
+  line-height: 1.125;
+}
+
+.sectitle-gradient{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,37,37,1) 0%, rgba(211,49,49,1) 82.8% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 1.125;
 }
 
@@ -79,7 +91,7 @@ body {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: #0066cc;
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,37,37,1) 0%, rgba(211,49,49,1) 82.8% );
   /* Set a background color */
   color: white;
   /* Text color */
@@ -93,13 +105,18 @@ body {
   /* Increase font size */
 }
 
-#myBtn:hover {
-  background-color: #001f3f;
-  /* Add a dark-grey background on hover */
-}
-
 #skills > div > div > div > div > div > div > i {
   font-size: 5rem;
+}
+
+.dev-icons:hover{
+  outline: none;
+    border-radius: 10px;
+    border-color: #001f3f;
+    box-shadow: 0 0 20px #001f3f;
+    padding: 25px;
+  height: 92px;
+  width: 152px;
 }
 
 #skills > div > div > div > div > div > div > i:hover {
@@ -163,7 +180,24 @@ body {
   color: #0066cc;
 }
 .primaryBtn:hover {
-  background-color: #001f3f;
-  border-color: #001f3f;
+  background: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
   color: white;
+}
+
+#projects{
+  background: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+  margin: 0 5% 0 5%;
+  border-radius: 15px;
+}
+
+.sectitle-projects {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: white;
+  line-height: 1.125;
+}
+
+.card{
+  border-radius: 5px;
 }
