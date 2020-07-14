@@ -1,247 +1,227 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Perez Arturo</title>
+    <link rel="stylesheet" href="css/bulma.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Perez Arturo</title>
-  <link rel="stylesheet" href="css/bulma.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <section class="hero custom-section is-large header">
-    <div class="hero-head">
-      <nav class="navbar">
+  <body>
+    <nav class="navbar is-white is-fixed-top">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item"> </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#about">
+              Acerca
+            </a>
+            <a class="navbar-item" href="#skills">
+              Skills
+            </a>
+            <a class="navbar-item" href="#projects">
+              Proyectos
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="hero is-large">
+      <div class="hero-body mpt">
         <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item"> </a>
-            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroA" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item" href="#about">
-                Acerca
-              </a>
-              <a class="navbar-item" href="#skills">
-                Skills
-              </a>
-              <a class="navbar-item" href="#projects">
-                Proyectos
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-12">
-            <h1 class="title"></h1>
-            <p class="subtitle">
-              <span>Un individuo jugando a
-                ser desarrollador.</span>
-            </p>
-            <div class="columns ml-1">
-              <div class="buttons">
-                <a class="button">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <strong>Follow</strong>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <section id="about" class="hero">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-6">
-            <div class="columns">
-              <h1 class="sectitle">Acerca de mi</h1>
-            </div>
-            <div class="columns mt-5">
-              <p class="has-text-justified">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                efficitur nisi nec ultrices mattis. Pellentesque sodales nisl
-                eget blandit eleifend. Suspendisse id nibh nibh. Cras
-                sollicitudin vitae risus ut eleifend. Curabitur sodales erat
-                felis. Fusce placerat tempus dui, eu sollicitudin justo porta
-                quis. Pellentesque feugiat ut justo eget ultrices. Vestibulum
-                pellentesque quam ac quam pretium egestas. Sed condimentum
-                ultrices tempor. Donec gravida tellus non ante tempus, eu
-                sollicitudin nisi volutpat. Nam scelerisque blandit elit in
-                dignissim. Fusce sit amet dapibus neque. Nunc vitae metus quis
-                mauris bibendum tristique. Pellentesque ornare pulvinar
-                ultricies. Donec viverra auctor magna ut malesuada. Morbi
-                egestas felis vel mi egestas, vitae porta tortor elementum.
-                Curabitur posuere tristique ante, eu facilisis ligula. Mauris
-                condimentum finibus mi eu iaculis. Maecenas eu lacus sit amet
-                nisi aliquet faucibus sit amet in nunc. Morbi nibh est,
-                scelerisque ut hendrerit sit amet, laoreet at lacus. Sed
-                ultricies luctus justo consectetur congue. In vel ornare enim.
-                Proin maximus ornare massa, quis sollicitudin nunc ullamcorper
-                sed.
+          <div class="columns">
+            <div class="column is-6">
+              <h1 class="title"></h1>
+              <p class="subtitle">
+                <span>Un individuo jugando a ser desarrollador.</span>
               </p>
+              <div class="columns ml-1">
+                <div class="buttons">
+                  <a class="button primaryBtn is-medium">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <strong>Follow</strong>
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="column is-6 ml-5">
-            <img src="img/undraw_programming_2svr.svg" alt="" />
+            <div class="column is-6">
+              <img src="img/undraw_programming_2svr.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="skills" class="hero">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-12">
-            <div class="columns">
-              <h1 class="sectitle">Skills</h1>
+    </section>
+    <section id="about" class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-6">
+              <div class="columns">
+                <h1 class="sectitle">Acerca de mi</h1>
+              </div>
+              <div class="columns mt-5">
+                <p class="has-text-justified">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  efficitur nisi nec ultrices mattis. Pellentesque sodales nisl
+                  eget blandit eleifend. Suspendisse id nibh nibh. Cras
+                  sollicitudin vitae risus ut eleifend. Curabitur sodales erat
+                  felis. Fusce placerat tempus dui, eu sollicitudin justo porta
+                  quis. Pellentesque feugiat ut justo eget ultrices. Vestibulum
+                  pellentesque quam ac quam pretium egestas. Sed condimentum
+                  ultrices tempor. Donec gravida tellus non ante tempus, eu
+                  sollicitudin nisi volutpat. Nam scelerisque blandit elit in
+                  dignissim. Fusce sit amet dapibus neque. Nunc vitae metus quis
+                  mauris bibendum tristique. Pellentesque ornare pulvinar
+                  ultricies. Donec viverra auctor magna ut malesuada. Morbi
+                  egestas felis vel mi egestas, vitae porta tortor elementum.
+                  Curabitur posuere tristique ante, eu facilisis ligula. Mauris
+                  condimentum finibus mi eu iaculis. Maecenas eu lacus sit amet
+                  nisi aliquet faucibus sit amet in nunc. Morbi nibh est,
+                  scelerisque ut hendrerit sit amet, laoreet at lacus. Sed
+                  ultricies luctus justo consectetur congue. In vel ornare enim.
+                  Proin maximus ornare massa, quis sollicitudin nunc ullamcorper
+                  sed.
+                </p>
+              </div>
             </div>
-            <canvas id="myChart"></canvas>
+            <div class="column is-6 ml-5">
+              <img src="img/undraw_profile_6l1l.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="projects" class="hero mb-5">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns">
-          <h1 class="sectitle">Proyectos</h1>
-        </div>
-        <div class="columns">
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <div class="columns">
-                  <div class="column">
-                    <p class="cardtitle">Js Apps</p>
-                  </div>
-                  <div class="column has-text-right">
-                    <i class="fab fa-js fa-2x" style="color: #FADF42;"></i>
-                  </div>
+    </section>
+    <section id="skills" class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-12">
+              <div class="columns">
+                <h1 class="sectitle">Skills</h1>
+              </div>
+              <div class="columns mt-5 has-text-centered">
+                <div class="column is-3">
+                  <i class="devicon-python-plain-wordmark colored"></i>
                 </div>
-                <div class="content">
-                  Coleccion de Apps en Js
+                <div class="column is-3">
+                  <i class="devicon-html5-plain-wordmark colored"></i>
                 </div>
-                <a class="button primaryBtn is-fullwidth" href="projects/jsapps/">Ir</a>
+                <div class="column is-3">
+                  <i class="devicon-css3-plain-wordmark colored"></i>
+                </div>
+                <div class="column is-3">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+              </div>
+              <div class="columns mt-5 has-text-centered">
+                <div class="column is-3">
+                  <i class="devicon-django-plain-wordmark colored"></i>
+                </div>
+                <div class="column is-3">
+                  <i class="devicon-android-plain colored"></i>
+                </div>
+                <div class="column is-3">
+                  <i class="devicon-csharp-plain-wordmark colored"></i>
+                </div>
+                <div class="column is-3">
+                  <i class="devicon-mysql-plain-wordmark colored"></i>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <button id="myBtn" title="Go to top">
-    <span class="icon">
-      <i class="fas fa-angle-up"></i>
-    </span>
-  </button>
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"
-  integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-<script>
-  function myFunction() {
-    var type = document.getElementsByClassName("typed-cursor")[0];
-    type.style.visibility = "hidden";
-  }
-  var ctx = document.getElementById("myChart");
-  var myChart = new Chart(ctx, {
-    type: "horizontalBar",
-    data: {
-      labels: ["Python/Django", "Java/Android", "Mysql", "C#", "Js"],
-      datasets: [
-        {
-          label: "Porcentaje",
-          data: [70, 50, 30, 30, 40],
-          backgroundColor: [
-            "rgb(0, 75, 52,0.2)",
-            "rgb(231, 0, 24,0.2)",
-            "rgb(0, 117, 141,0.2)",
-            "rgb(154, 60, 170,0.2)",
-            "rgb(251, 224, 65,0.2)",
-          ],
-          borderColor: [
-            "rgb(0, 75, 52)",
-            "rgb(231, 0, 24)",
-            "rgb(0, 117, 141)",
-            "rgb(154, 60, 170)",
-            "rgb(251, 224, 65)",
-          ],
-          borderWidth: 1,
-        },
-      ],
-    },
-    options: {
-      scales: {
-        xAxes: [
-          {
-            ticks: {
-              beginAtZero: true,
-              steps: 10,
-              stepValue: 5,
-              max: 100,
-            },
-          },
-        ],
-      },
-      animation: {
-        duration: 2000,
-        onProgress: function (animation) {
-          ctx.value =
-            animation.animationObject.currentStep /
-            animation.animationObject.numSteps;
-        },
-        onComplete: function () {
-          window.setTimeout(function () {
-            ctx.value = 0;
-          }, 2000);
-        },
-      },
-    },
-  });
-
-  var typed = new Typed(".title", {
-    strings: ["Perez Arturo"],
-    typeSpeed: 50,
-  });
-
-
-  $(document).ready(function () {
-    var btn = $('#myBtn');
-    $(window).scroll(function () {
-      if ($(window).scrollTop() > 600) {
-        btn.show();
-      } else {
-        btn.hide();
-      }
+    </section>
+    <section id="projects" class="hero mb-5">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <h1 class="sectitle">Proyectos</h1>
+          </div>
+          <div class="columns">
+            <div class="column is-4">
+              <div class="card">
+                <div class="card-content">
+                  <div class="columns">
+                    <div class="column">
+                      <p class="cardtitle">Js Apps</p>
+                    </div>
+                    <div class="column has-text-right">
+                      <i class="fab fa-js fa-2x" style="color: #fadf42;"></i>
+                    </div>
+                  </div>
+                  <div class="content">
+                    Coleccion de Apps en Js
+                  </div>
+                  <a
+                    class="button primaryBtn is-fullwidth"
+                    href="projects/jsapps/"
+                    >Ir</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button id="myBtn" title="Go to top">
+      <span class="icon">
+        <i class="fas fa-angle-up"></i>
+      </span>
+    </button>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script
+    defer
+    src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"
+    integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+    function myFunction() {
+      var type = document.getElementsByClassName("typed-cursor")[0];
+      type.style.visibility = "hidden";
+    }
+    var typed = new Typed(".title", {
+      strings: ["Perez Arturo"],
+      typeSpeed: 50,
     });
 
-    btn.on('click', function (e) {
-      e.preventDefault();
-      $('html, body').animate({ scrollTop: 0 }, '300');
-    });
-    myFunction();
-  });
-</script>
+    $(document).ready(function () {
+      var btn = $("#myBtn");
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 600) {
+          btn.show();
+        } else {
+          btn.hide();
+        }
+      });
 
+      btn.on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "300");
+      });
+      myFunction();
+    });
+  </script>
 </html>
