@@ -10,7 +10,11 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-weight: bolder;
   font-size: 6rem;
-  background: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+  background: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.125;
@@ -26,11 +30,15 @@ body {
   line-height: 1.125;
 }
 
-.sectitle-gradient{
+.sectitle-gradient {
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   font-size: 3.5rem;
-  background: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+  background: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.125;
@@ -58,7 +66,7 @@ body {
 .navbar-item {
   color: #001f3f !important;
   font-weight: bold;
-  font-size:16px;
+  font-size: 16px;
 }
 
 .navbar-item:hover {
@@ -91,7 +99,11 @@ body {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,37,37,1) 0%, rgba(211,49,49,1) 82.8% );
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(226, 37, 37, 1) 0%,
+    rgba(211, 49, 49, 1) 82.8%
+  );
   /* Set a background color */
   color: white;
   /* Text color */
@@ -113,22 +125,22 @@ body {
   font-size: 4rem;
 }
 
-.dev-icons:hover{
+.dev-icons:hover {
   outline: none;
-    border-radius: 10px;
-    border-color: #001f3f;
-    box-shadow: 0 0 20px #001f3f;
-    padding: 25px;
+  border-radius: 10px;
+  border-color: #001f3f;
+  box-shadow: 0 0 20px #001f3f;
+  padding: 25px;
   height: 92px;
   width: 152px;
 }
 
 #skills > div > div > div > div > div > div > i:hover {
-    outline: none;
-    border-radius: 10px;
-    border-color: #001f3f;
-    box-shadow: 0 0 20px #001f3f;
-    padding: 25px;
+  outline: none;
+  border-radius: 10px;
+  border-color: #001f3f;
+  box-shadow: 0 0 20px #001f3f;
+  padding: 25px;
   font-size: 7rem;
 }
 
@@ -184,14 +196,25 @@ body {
   color: #0066cc;
 }
 .primaryBtn:hover {
-  background: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+  background: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
   color: white;
 }
 
-#projects{
-  background: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+#projects {
+  background: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
   margin: 0 5% 0 5%;
   border-radius: 15px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 .sectitle-projects {
@@ -202,7 +225,7 @@ body {
   line-height: 1.125;
 }
 
-.card{
+.card {
   border-radius: 5px;
 }
 
